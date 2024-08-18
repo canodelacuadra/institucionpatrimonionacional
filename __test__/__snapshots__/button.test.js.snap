@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renderiza el Button correctamente y coincide con el snapshot 1`] = `
+<DocumentFragment>
+  <button
+    class="button"
+    style="background-color: blue; color: white;"
+  >
+    Click Me
+  </button>
+</DocumentFragment>
+`;
