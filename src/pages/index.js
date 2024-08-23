@@ -10,6 +10,7 @@ import Seo from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
+    <Link to="/generadorqr">Generador Qr Multisteps</Link>
 
     <Link to="/userprofile">Perfil de Usuario</Link>
     <h2>Multi-Step Form</h2>
