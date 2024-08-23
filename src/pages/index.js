@@ -4,13 +4,16 @@ import { StaticImage } from "gatsby-plugin-image"
 
 
 import Layout from "../components/layout"
+import MultiStepForm from "../components/formmultisteps/multistepform"
 import Seo from "../components/seo"
 
 
 const IndexPage = () => (
   <Layout>
 
- <Link to ="/userprofile">Perfil de Usuario</Link>
+    <Link to="/userprofile">Perfil de Usuario</Link>
+    <h2>Multi-Step Form</h2>
+    <MultiStepForm></MultiStepForm>
   </Layout>
 )
 
